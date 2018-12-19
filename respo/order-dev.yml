@@ -9,10 +9,10 @@ spring:
   jpa:
     show-sql: true
 
-eureka:
-  client:
-    service-url:
-     defaultZone: http://discovery1:8761/eureka/
+# eureka:
+#   client:
+#     service-url:
+#      defaultZone: http://discovery1:8761/eureka/
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
