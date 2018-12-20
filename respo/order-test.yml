@@ -8,7 +8,8 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloudtest?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
   jpa:
     show-sql: true
- bus:
+  cloud:
+    bus:
       enabled: true
       trace:
         enabled: true
@@ -25,6 +26,7 @@ management:
     web:
       exposure:
         include: bus-refresh
+
 
 # eureka:
 #   client:
