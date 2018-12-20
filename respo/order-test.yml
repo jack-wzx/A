@@ -9,10 +9,6 @@ spring:
   jpa:
     show-sql: true
   cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true
   rabbitmq:
     host: 192.168.99.100
     port: 5672
