@@ -32,4 +32,4 @@ management:
 #   ribbon:
 #     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  test1111112361231
+  test1
