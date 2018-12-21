@@ -21,6 +21,6 @@ spring:
 env:
   test110
 girl:
-  name:wc
-  age:120
+  name: wc
+  age: 120
   
