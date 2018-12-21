@@ -19,6 +19,6 @@ spring:
 #   ribbon:
 #     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  test111
+  test110
 girl:
   1211111
