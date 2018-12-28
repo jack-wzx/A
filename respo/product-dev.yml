@@ -1,1 +1,8 @@
-
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: ookk
+      url: jdbc:mysql://localhost:3306/springcloudtest?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    jpa:
+      show-sql: true
